@@ -80,7 +80,7 @@ st.markdown(light_pink_css, unsafe_allow_html=True)
 def load_data():
     try:
         # Python Pandas reading the CSV dataset
-        df = pd.read_csv('Cleaned_Teen_Mental_Health.csv')
+        df = pd.read_csv('Teen_Mental_Health.csv')
         return df
     except Exception as e:
         st.error(f"Error loading file with Python Pandas: {e}")
